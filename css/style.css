@@ -75,12 +75,13 @@ header img{
 }
 }
 
-header img { 
-  animation: fadeIn ease 3s;
-}
 
-@media (prefers-reduced-motion) {
-    header img { 
-      animation: none;
-    }
+header img { 
+    animation: fadeIn ease 3s;
   }
+  
+  @media (prefers-reduced-motion) {
+      header img { 
+        animation: none;
+      }
+    }
